@@ -2,12 +2,10 @@ import { Card, CardHeader, CardBody, Text, Button} from '@chakra-ui/react'
 import { useState } from 'react';
 
 export default function AplusB() {
-    
-
     const [result, setResult] = useState(5);
 
     function handleClick() {
-        setResult(result + 1);
+        setResult(result + 10);
     }
 
     return (
@@ -19,14 +17,14 @@ export default function AplusB() {
                     </Text>                    
                 </CardHeader>
 
-                <CardBody>
-                    <Text variant='other'>
+                <CardBody pt = '15px'>
+                    <Text variant='ab'>
                         A = 5; B = 10;
                     </Text>
                     <Button onClick={handleClick}>
                         Click to add B
                     </Button>
-                    <Text variant='other'>
+                    <Text variant='res'>
                         Result: { result }
                     </Text>
                 </CardBody>

@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { ChakraProvider } from '@chakra-ui/react'
 import AplusB from "./AplusB";
-import { theme } from './styles';
+import theme from './styles';
 
 export default function Home() {
     return (
