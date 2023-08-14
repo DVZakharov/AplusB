@@ -7,7 +7,7 @@ export default function AplusB() {
     const [result, setResult] = useState(5);
 
     function handleClick() {
-        setResult(result + 1);
+        setResult(result => result + 10);
     }
 
     return (
