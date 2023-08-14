@@ -2,8 +2,6 @@ import { Card, CardHeader, CardBody, Text, Button} from '@chakra-ui/react'
 import { useState } from 'react';
 
 export default function AplusB() {
-    
-
     const [result, setResult] = useState(5);
 
     function handleClick() {
