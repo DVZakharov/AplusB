@@ -16,18 +16,18 @@ export default function AplusB() {
                 <CardHeader>
                     <Text variant='head'>
                         A plus B
-                    </Text>                    
+                    </Text>
                 </CardHeader>
 
-                <CardBody>
-                    <Text variant='other'>
+                <CardBody pt='15px'>
+                    <Text variant='ab'>
                         A = 5; B = 10;
                     </Text>
                     <Button onClick={handleClick}>
                         Click to add B
                     </Button>
-                    <Text variant='other'>
-                        Result: { result }
+                    <Text variant='res'>
+                        Result: {result}
                     </Text>
                 </CardBody>
             </Card>

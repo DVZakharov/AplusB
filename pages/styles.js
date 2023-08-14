@@ -12,12 +12,16 @@ const Button = defineStyleConfig({
 const Text = defineStyleConfig({
     variants: {
         head: {
-            fontweight: 'bold',
-            fontsize: '1.2em',
-        },
-        other: {
             fontWeight: 'bold',
-            fontSize: '0.8em'
+            fontSize: '1.3em',
+        },
+        ab: {
+            fontWeight: 'bold',
+            fontSize: '0.97em'
+        },
+        res: {
+            fontWeight: 'bold',
+            fontSize: '1.07em'
         }
     },
 })
