@@ -2,7 +2,8 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { ChakraProvider } from '@chakra-ui/react'
 import AplusB from "./AplusB";
-import theme from './styles';
+import theme from "./styles";
+import JsonCard from "./JsonCard";
 
 export default function Home() {
     return (
@@ -11,10 +12,12 @@ export default function Home() {
                 <Head>
                     <title>Create Next App</title>
                     <link rel="icon" href="/favicon.ico" />
+                    <meta charset="utf-8" />
                 </Head>
 
                 <main>
                     <AplusB></AplusB>
+                    <JsonCard></JsonCard>
                 </main>
 
                 <footer>
