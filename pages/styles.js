@@ -11,15 +11,15 @@ const Button = defineStyleConfig({
 
 const Text = defineStyleConfig({
     variants: {
-        head: {
+        text3: {
             fontWeight: 'bold',
             fontSize: '1.3em',
         },
-        ab: {
+        text1: {
             fontWeight: 'bold',
             fontSize: '0.97em'
         },
-        res: {
+        text2: {
             fontWeight: 'bold',
             fontSize: '1.07em'
         }

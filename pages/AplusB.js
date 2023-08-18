@@ -10,21 +10,21 @@ export default function AplusB() {
 
     return (
         <div>
-            <Card>
+            <Card w='171px'>
                 <CardHeader>
-                    <Text variant='head'>
+                    <Text variant='text3'>
                         A plus B
                     </Text>
                 </CardHeader>
 
                 <CardBody pt='15px'>
-                    <Text variant='ab'>
+                    <Text variant='text1'>
                         A = 5; B = 10;
                     </Text>
                     <Button onClick={handleClick}>
                         Click to add B
                     </Button>
-                    <Text variant='res'>
+                    <Text variant='text2'>
                         Result: {result}
                     </Text>
                 </CardBody>

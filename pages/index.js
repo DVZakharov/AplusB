@@ -12,7 +12,7 @@ export default function Home() {
                 <Head>
                     <title>Create Next App</title>
                     <link rel="icon" href="/favicon.ico" />
-                    <meta charset="utf-8" />
+                    <meta charSet="utf-8" />
                 </Head>
 
                 <main>
