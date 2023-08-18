@@ -18,7 +18,7 @@ export default function JsonCard() {
 
     return (
         <div>
-            <Card w = '171px'>
+            <Card w='171px' mt={5}>
                 <CardBody>
                     <Button onClick={load}>
                         Update
